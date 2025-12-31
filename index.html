@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Lontrinhas </title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<header>
+  <h1>Lontrinhas Store</h1>
+  <p>As lontrinhas mais fofas da internet ! </p>
+</header>
+
+<section>
+  <h2>🐾 Nossas Lontrinhas: </h2>
+
+  <div class="produtos">
+
+    <!-- Lontrinha Fofa -->
+    <div class="produto">
+      <img src="https://i.pinimg.com/474x/4a/b6/e5/4ab6e577e4ceac8a72edeb94d746c303.jpg">
+      <h3>🦦 Lontrinha Fofa</h3>
+      <p>Preço: R$ 49,90</p>
+      <a class="btn-whats"
+         href="https://wa.me/5515997702983?text=Quero a Lontrinha Fofa 🦦"
+         target="_blank">
+        Comprar
+      </a>
+    </div>
+
+    <!-- Lontrinha Dorminhoca -->
+<div class="produto">
+       <img src="https://fotos.amomeupet.org/uploads/fotos/1639622004_61baa574ee8f2_hd.jpeg" alt="Lontrinha Dorminhoca">
+  <h3>😴 Lontrinha Dorminhoca</h3>
+  <p>Preço: R$ 59,90</p>
+  <a class="btn-whats"
+     href="https://wa.me/5515997702983?text=Quero a Lontrinha Dorminhoca 😴"
+     target="_blank">
+    Comprar
+  </a>
+</div>
+
+    <!-- Lontrinha CLT -->
+    <div class="produto clt">
+      <img src="https://rvideos1.memedroid.com/videos/UPLOADED126/618518aeb04aa.jpeg">
+      <h3>💼🦦 Lontrinha CLT</h3>
+      <p>Preço: R$ 29,90</p>
+      <span class="badge">Trabalhadora</span>
+      <a class="btn-whats"
+         href="https://wa.me/5515997702983?text=Quero a Lontrinha CLT 💼🦦"
+         target="_blank">
+        Comprar
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <h2>📦 Sobre a loja</h2>
+  <p>
+    Vendemos lontrinhas super fofas, perfeitas para presentear
+    ou colecionar.
+  </p>
+</section>
+
+<section>
+  <h2>📲 Contato</h2>
+  <p>Fale conosco pelo WhatsApp</p>
+</section>
+
+<footer>
+  <p>© 2025 - Lontrinhas Store</p>
+</footer>
+
+  <a class="btn-final" href="https://wa.me/5515997702983?text=Quero uma familia completa de lontrinhas peripeticas 🦦"
+      target="_blank">
+  ULTIMAS UNIDADES !!!
+</a>
+
+<div id="lontrinha-animada">🦦👍</div>
+
+<script>
+  const btn = document.querySelector('.btn-final');
+  const lontrinha = document.getElementById('lontrinha-animada');
+
+  btn.addEventListener('click', () => {
+    lontrinha.classList.remove('lont-show');
+    void lontrinha.offsetWidth;
+    lontrinha.classList.add('lont-show');
+  });
+</script>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
